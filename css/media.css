@@ -1,0 +1,13 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) { 
+	/*count time start*/
+	li {
+		font-size: 12px;
+		padding: 16px;
+	}
+	li span {
+		font-size: 23px;
+	}
+
+}

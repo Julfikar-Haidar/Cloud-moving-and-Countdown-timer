@@ -1,0 +1,182 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.padding-0{
+	padding: 0 !important;
+}
+
+.mt-6{
+	margin-top: 5rem;
+}
+
+#coundown_timer	{ 
+	background-image: url(../images/cloud-1.png), url(../images/cloud-4.png), url(../images/cloud-3.png),url(../images/cloud-2.png),url(../images/cloud-5.png);
+	background-position: right -100px bottom 10px, right -200px bottom 250px, right -500px bottom 150px,right -300px top 10px,right -200px top 350px;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	animation: animatedCloud 30s linear infinite;
+}
+
+@keyframes animatedCloud {
+	from { background-position: right -100px bottom 10px, right -200px bottom 250px, right -500px bottom 150px,right -300px top 10px,right -200px top 350px; }
+	to { background-position: left -100px bottom 10px, left -200px bottom 250px, left -500px bottom 150px,left -300px top 10px,left -200px top 350px; }
+}
+
+.head_title h3{
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.head_title h1{
+	color: #121C25;
+	letter-spacing: 0;
+	line-height: 45px;
+}
+
+.count_time_start {
+	color: #333;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-size: 1em;
+	list-style-type: none;
+	padding: 1.5em;
+	text-transform: uppercase;
+}
+
+li span {
+	display: block;
+	font-size: 2rem;
+}
+
+/*hill image start*/
+
+#hill{
+	background-image: url(../images/hill.png);
+	background-size: auto;
+	background-position: center center; 
+	background-repeat: no-repeat;
+	min-height: 480px;
+}
+
+.button{
+	background-color: #4378F8;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.button:hover{
+	color: #fff;
+	box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*hill image end*/
+
+
+/*We build successful We long-lasting. start*/
+.total{
+	background-image: linear-gradient(to bottom, #d5e2ff, #e2e8ff, #eeefff, #f7f7ff, #ffffff);
+}
+
+#long-lasting{
+	padding: 50px 0;
+}
+
+#long-build{
+	padding: 50px 0;
+}
+
+.pd_img{
+	padding-left: 50px;
+}
+
+.pd_long{
+	padding: 0 50px;
+}
+
+.content_long h1{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #121C25;
+}
+
+.content_long p{
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 1.7;
+}
+
+/*We build successful We long-lasting. end*/
+
+
+/*slider start*/
+
+#slider{
+	padding-top: 50px;
+	padding-bottom: 150px;
+	background-color: #F4F4F4;
+}
+
+.slider_content h1{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 35px;
+	padding-bottom: 20px;
+
+}
+
+.slider_content p{
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 1.7;
+}
+
+.hovereffect{
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	bottom:0;
+	left:0;
+	transition: 0.5s;
+	opacity: 0;
+	color: #000;
+	background-color: red;
+}
+
+.hovereffect:hover .overlay{
+	opacity: 1;
+	background-color: #ECF0F7;
+}
+
+.text{
+	position: absolute;
+	color: #000;
+	bottom: 0;
+	left: 5%;
+	transition: 0.5s;
+	
+}
+
+.text p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*slider end*/
+
